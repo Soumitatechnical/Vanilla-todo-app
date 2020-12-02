@@ -1,0 +1,85 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+   
+}
+
+header{
+    font-size: 1.5rem;
+}
+
+header, form,.todo-container{
+    min-height: 20vh;
+    min-width:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputText{
+    padding: 0.5rem;
+    border: none;
+    color: #262626;
+    background: white;
+    outline: none;
+}
+
+.todo-btn{
+    background-color: white;
+    color:#262626;
+    padding: 0.5rem;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    outline: none;
+}
+
+.todo-btn:hover{
+    color:white;
+    background-color: #262626 ;
+}
+
+
+.my-todo{
+    list-style: none;
+    /* min-width:32%; */
+    width: 85%;
+}
+
+.todo{
+    padding: 0.5rem;
+    /* width: 100%; */
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    /* width:100%; */
+    
+}
+.trashBtn{
+    color: red;
+    background-color:transparent;
+    padding: 0.5rem;
+    border: none;
+    font-size: larger;
+}
+
+
+
+.trashBtn i{
+    pointer-events: none;
+}
+
